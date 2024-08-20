@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+
+int main () {
+		
+	
+   float numero1;
+   float numero2;
+   
+  printf("Escolha o primeiro numero");
+  scanf("%f", &numero1);
+  
+  printf("Escolha o segundo numero");
+  scanf("%f", &numero2);
+  
+   if (numero1 > numero2){
+   printf("O primeiro numeroe maior");
+
+   }
+else{
+	
+	printf("O segundo numero e maior");
+}   
+
+
+return 0;	
+	
+}
