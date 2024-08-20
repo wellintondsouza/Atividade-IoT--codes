@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main () {
+  
+   float numero1;
+   float numero2;
+   float numero3;
+ 
+  printf("Escolha o primeiro numero");
+  scanf("%f", &numero1);
+  
+  printf("Escolha o segundo numero");
+  scanf("%f", &numero2);
+  
+   printf("Escolha o terceiro numero");
+  scanf("%f", &numero3);
+ 
+  float media=(numero1 + numero2 + numero3) / 3;
+ 
+  printf("A media dos numeros e: %.2f", media);
+
+return 0;	
+}
