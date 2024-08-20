@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+
+int main () {
+		
+	
+   float numero1;
+   float numero2;
+   
+   printf("Escolha o primeiro número");
+   scanf("%f",& numero1);
+   
+   printf("Escolha o segundo numero");
+   scanf("%f",& numero2);
+
+float soma=numero1 + numero2;
+
+printf("Esta é a soma entre os dois números %f",soma);
+
+   
+return 0;	
+	
+}
