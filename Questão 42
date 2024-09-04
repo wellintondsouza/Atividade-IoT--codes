@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h> // Para a função time()
+
+int main(void)
+{
+int i;
+
+// Inicializa o gerador de números aleatórios com o tempo atual como semente
+srand(time(NULL));
+
+printf("Gerando 10 valores aleatorios:\n\n");
+
+for (i = 0; i < 10; i++)
+{
+// Gera e imprime um número aleatório entre 0 e 99
+printf("%d ", rand() % 100);
+}
+
+// Pausa para visualizar a saída (para sistemas onde getch() não está disponível)
+// Você pode remover isso se estiver usando um IDE que permite visualizar a saída sem pausa
+getchar();
+
+return 0;
+}
